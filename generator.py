@@ -35,4 +35,5 @@ def generate_contact():
     contact["Last Name"] = last_name
     contact["Number"] = number
     contact["Email"] = email
+    contact["Tags"] = []
     return contact
