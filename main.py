@@ -3,7 +3,7 @@ import json
 
 def main():
     contacts = []
-    for _ in range(10000):
+    for _ in range(100):
         contact = generator.generate_contact()
         contacts.append(contact)
     
